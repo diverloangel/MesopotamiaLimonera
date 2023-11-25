@@ -15,38 +15,39 @@ public class PickUp : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        TurnOffAllObjectsInCharacter();
     }
 
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!carryingObject)
-        {
-            if (other.tag == "ObjectToPick")
-            {
-                tipo = other.GetComponent<Types>().tipo;
-                carryingObject = true;
-                Destroy(gameObject);
-                PutObjectInCharacter();
-            }
-        }
-        if (carryingObject)
-        {
-            if (other.tag == "PlatformToDeliver")
-            {
-                TurnOffAllObjectsInCharacter();
-                carryingObject = false;
-                //llamar a la plataforma que haga algo
-            }
-        }
+        //if (!carryingObject)
+        //{
+        //    if (other.tag == "ObjectToPick")
+        //    {
+        //        tipo = other.GetComponent<Types>().tipo;
+        //        carryingObject = true;
+        //        Destroy(gameObject);
+        //        PutObjectInCharacter();
+        //    }
+        //}
+        //if (carryingObject)
+        //{
+        //    if (other.tag == "PlatformToDeliver")
+        //    {
+        //        TurnOffAllObjectsInCharacter();
+        //        carryingObject = false;
+        //        //llamar a la plataforma que haga algo
+        //    }
+        //}
 
     }
 
-    private void PutObjectInCharacter()
+    public void PutObjectInCharacter()
     {
         tipoObject[tipo].SetActive(true);
     }
-    private void TurnOffAllObjectsInCharacter()
+    public void TurnOffAllObjectsInCharacter()
     {
         for (int i = 0; i < tipoObject.Length; i++)
         {
