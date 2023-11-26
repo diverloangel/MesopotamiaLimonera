@@ -11,7 +11,7 @@ public class PlatformToDeliver : MonoBehaviour
     public int ObjectType;
 
     public GameObject quest;
-    public GameObject dialogue;
+    //public GameObject dialogue;
 
     public GameObject Off;
     public GameObject On;
@@ -25,7 +25,7 @@ public class PlatformToDeliver : MonoBehaviour
                 PickUp.instance.carryingObject = false;
                 PickUp.instance.TurnOffAllObjectsInCharacter();
                 objeto.SetActive(true);
-                dialogue.SetActive(true);
+                //dialogue.SetActive(true);
 
                 Off.SetActive(false); On.SetActive(true);
                 entregado = true;

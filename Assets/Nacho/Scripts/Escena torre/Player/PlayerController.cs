@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     //Fuerza de salto
     public float jumpForce;
+    //jumping
+    public bool jumping;
     //Escala de la gravedad. Aumenta o disminuye esta, en este caso la multiplica
     public float gravityScale = 5f;
 
@@ -73,14 +75,15 @@ public class PlayerController : MonoBehaviour
             moveDirection.y = yStore;
 
             //Comprobamos si estamos en el suelo, para que nos deje realizar un salto. (Así evitamos salto infinito)
-            if (charController.isGrounded)
+            if (IsGrounded.instance.isGrounded)
             {
                 //Para que la fuerza de la gravedad no aumente continuamente mientras estemos en el suelo
-                moveDirection.y = 0f;
-
+                //moveDirection.y = 0f;
                 //Si pulsamos la tecla asociada al salto en el Input Manager
-                if (Input.GetButtonDown("Jump"))
+                if (Input.GetButtonDown("Jump") && jumping == false)
                 {
+                    jumping = true;
+                    StartCoroutine(nameof(jumpingCoroutine));
                     //Aplicamos al jugador en el eje Y la fuerza de salto
                     moveDirection.y = jumpForce;
                 }
@@ -112,7 +115,7 @@ public class PlayerController : MonoBehaviour
             moveDirection = playerModel.transform.forward * -knockBackPower.x;
             moveDirection.y = yStore;
 
-            if (charController.isGrounded)
+            if (IsGrounded.instance.isGrounded)
             {
                 //Para que la fuerza de la gravedad no aumente continuamente mientras estemos en el suelo
                 moveDirection.y = 0f;
@@ -132,7 +135,9 @@ public class PlayerController : MonoBehaviour
         //Cambiamos el valor del parámetro del Animator que se llama Speed, para que se realice la animación
         anim.SetFloat("Speed", Mathf.Abs(moveDirection.x) + Mathf.Abs(moveDirection.z)); //Para ello además de ver que parámetros cambiamos, le pasamos el valor que tendrá el nuevo valor, en este caso siempre devolvemos un valor positivo
         //Cambiamos el valor del parámetro Grounded. Para ello el propio character controller del jugador analiza a través de isGrounded si estamos en el suelo o no
-        anim.SetBool("Grounded", charController.isGrounded);
+        //anim.SetBool("Grounded", charController.isGrounded);
+        anim.SetBool("Grounded", IsGrounded.instance.isGrounded);
+
     }
 
     //Método que hace Knockback al jugador
@@ -146,5 +151,11 @@ public class PlayerController : MonoBehaviour
         moveDirection.y = knockBackPower.y;
         //aplicamos moveDirection
         charController.Move(moveDirection * Time.deltaTime);
+    }
+
+    IEnumerator jumpingCoroutine()
+    {
+        yield return new WaitForSeconds(0.2f);
+        jumping = false;
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Types : MonoBehaviour
 {
-    [Range(0,3)]
+    [Range(0,4)]
     public int tipo;
 
     private void OnTriggerEnter(Collider other)
