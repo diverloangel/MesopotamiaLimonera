@@ -78,8 +78,15 @@ public class PlayerController : MonoBehaviour
             if (IsGrounded.instance.isGrounded)
             {
                 //Para que la fuerza de la gravedad no aumente continuamente mientras estemos en el suelo
-                //moveDirection.y = 0f;
                 //Si pulsamos la tecla asociada al salto en el Input Manager
+                //if (jumping == false)
+                //{
+                //    moveDirection.y = 0f;
+                //}
+                if (moveDirection.y <-2)
+                {
+                    moveDirection.y = -1f;
+                }
                 if (Input.GetButtonDown("Jump") && jumping == false)
                 {
                     jumping = true;
@@ -87,7 +94,15 @@ public class PlayerController : MonoBehaviour
                     //Aplicamos al jugador en el eje Y la fuerza de salto
                     moveDirection.y = jumpForce;
                 }
+
             }
+            if (IsGrounded.instance.isGrounded == false)
+            {
+                //moveDirection.y += Physics.gravity.y * Time.deltaTime * gravityScale;
+
+                //velocity.y += gravity * Time.deltaTime;
+            }
+
 
             //Aquí aplicamos la fuerza de la gravedad al jugador cogiendo la gravedad que tenemos configurada desde el programa multiplicada por la escala de la gravedad
             moveDirection.y += Physics.gravity.y * Time.deltaTime * gravityScale;

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ObjectToPick
   - ground
+  - fov
   layers:
   - Default
   - TransparentFX
