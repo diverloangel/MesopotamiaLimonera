@@ -15,12 +15,15 @@ EditorBuildSettings:
     path: Assets/Nacho/Scenes/Intro1.unity
     guid: eb5aec51ccf2b034585e61fac6c5cbdc
   - enabled: 1
-    path: Assets/Nacho/Scenes/SampleScene.unity
-    guid: 3d6c0f5f456feaf4f946fe7afff62d13
+    path: Assets/Nacho/Scenes/Game.unity
+    guid: f73b846317b44e846ac3103640aebde5
   - enabled: 1
     path: Assets/Nacho/Scenes/Outro3.unity
     guid: 6f1b546f38caeb945a9f55f2e51d41a8
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Nacho/Scenes/SampleScene.unity
+    guid: 3d6c0f5f456feaf4f946fe7afff62d13
+  - enabled: 0
     path: Assets/Pruebas.unity
     guid: 9870e426d1e04a545b4cc4ac8c83e6fe
   m_configObjects: {}
