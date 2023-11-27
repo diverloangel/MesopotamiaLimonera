@@ -6,6 +6,7 @@ public class CheckMiniPlatformWin : MonoBehaviour
 {
     public miniPlatformDelivery[] platformsToDeliver;
     public GameObject objetoRecompensa;
+    public GameObject particulas;
 
     public static CheckMiniPlatformWin instance;
     private void Awake()
@@ -28,6 +29,7 @@ public class CheckMiniPlatformWin : MonoBehaviour
         if (entregados >= platformsToDeliver.Length)
         {
             objetoRecompensa.SetActive(true);
+            particulas.SetActive(true);
         }
     }
 }
