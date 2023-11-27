@@ -87,7 +87,8 @@ public class Contador : MonoBehaviour
     {
         yield return new WaitForSeconds(fadeSpeed);
         //scenemanager
-        SceneManager.LoadScene(0);
+        Ganapierder.win = false;
+        SceneManager.LoadScene(3);
     }
 
     public void ComprobarPorcentaje()

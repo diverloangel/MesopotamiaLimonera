@@ -12,26 +12,10 @@ public class ManagerScenes : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
         if (managerScenes == null)
         {
             managerScenes = this;
         }
-        foreach (EditorBuildSettingsScene scene in EditorBuildSettings.scenes)
-        {
-            if (scene.enabled)
-                Scenes.Add(scene.path);
-        }
-        //int sceneCount = UnityEngine.SceneManagement.SceneManager.sceneCountInBuildSettings;
-        //string[] scenes = new string[sceneCount];
-        //for (int i = 0; i < sceneCount; i++)
-        //{
-        //    scenes[i] = System.IO.Path.GetFileNameWithoutExtension(UnityEngine.SceneManagement.SceneUtility.GetScenePathByBuildIndex(i));
-        //}
-        //for (int i = 0; i < scenes.Length; i++)
-        //{
-        //    Scenes.Add(scenes[i]);
-        //}
     }
     public void GoToSceneX(int i)
     {

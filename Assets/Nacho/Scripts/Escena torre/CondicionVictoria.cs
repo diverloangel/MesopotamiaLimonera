@@ -53,6 +53,7 @@ public class CondicionVictoria : MonoBehaviour
     IEnumerator waitToFinish()
     {
         Contador.Instance.Pause();
+        Ganapierder.win = true;
         yield return new WaitForSeconds(2f);
         Victoria = true;
         PlayerController.instance.enabled = false;

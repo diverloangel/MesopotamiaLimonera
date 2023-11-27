@@ -15,6 +15,9 @@ public class PickUp : MonoBehaviour
     private void Awake()
     {
         instance = this;
+    }
+    private void Start()
+    {
         TurnOffAllObjectsInCharacter();
     }
 
