@@ -1,0 +1,1875 @@
+fileFormatVersion: 2
+guid: 70d337c0fe004f145b72ed4d2667e593
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1045
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7623b4a05c3f254c87b5dd53548fdcb
+      internalID: -1542835940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1042
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780038eeb32a5f94aa551fa1011073d4
+      internalID: -1673061934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_2
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1043
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5395fb45138a0b4e98974e665d4dac9
+      internalID: 1573852780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_3
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1042
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bca5c6c441fe294fa7fb6b211dded5e
+      internalID: -211406946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_4
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1043
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8241903ca913ad4793eb8fee99b176a
+      internalID: -1411086253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_5
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1045
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad7ad9efe77cea429bc860fd7cff499
+      internalID: -2122360143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_6
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1044
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe8982e213fac54dabeee2e294c5cea
+      internalID: -219629019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_7
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1046
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14d66ad2c71bc644894f8c59e5d565b
+      internalID: -1757551059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_8
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1046
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa691977d8a9694cb2b05fa03283bdf
+      internalID: 1180783352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 924
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdef361aa72be943b05df7bc36b23c1
+      internalID: 1164246202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 926
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8397fda82e474134baba82db0934becb
+      internalID: -1556146539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_11
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 925
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ecfb71fb213e844a120feef0a2fc6d
+      internalID: 960348400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_12
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 926
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fb34774e7104146ae73ccf43b27811
+      internalID: 371944660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_13
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 922
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e95447dae1d9e49931128cf2026d29
+      internalID: -1053968863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_14
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 925
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c47c22ab8e9a1a4db376add26a1fa80
+      internalID: 1158316093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_15
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 927
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a714197bb30ff147af05cbd66966a7a
+      internalID: 142642779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_16
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 925
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b111da501f8eb240885bb47e6de71a9
+      internalID: -1938953970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_17
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 924
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349d3f1ea08641e478a9f864627bffef
+      internalID: 561991056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_18
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 806
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9d5072f1bcc874b80aefe750a4e37d
+      internalID: 1214760485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 807
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f586d14029375c949844ffecb4adbcc6
+      internalID: 1118888127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_20
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 808
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1117ba382f2720643865d676ff2d91f9
+      internalID: 710056863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_21
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 808
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31145d5cc82be346886ecfa19d37fe1
+      internalID: 126910156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_22
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 806
+        width: 67
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a136eed35e0669047b0ef6536d0148bc
+      internalID: 1177990810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_23
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 806
+        width: 78
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a684ede651841a1449d9f2195c41396b
+      internalID: 371620310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_24
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 804
+        width: 70
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f286793267bea9c4595e0702aceb0403
+      internalID: -1406071426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_25
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 808
+        width: 69
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dd6ac0e1b222d47a94ae46d35ee2d0
+      internalID: 1175854135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_26
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 805
+        width: 111.111115
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fcc8569ec934c42a6c22feee9502ab
+      internalID: 110326210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 659
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fcadffb4fd6884abf9c2bcf59f17df
+      internalID: 1200464424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_37
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 661
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cb12ded8679b54faf3e8d8e884a330
+      internalID: 288559614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_38
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 661
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f194300b43b30e949a0a4b79923ddc80
+      internalID: -1060131709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_39
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 662
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feab926e457aaac43a6f73e5e4fca9eb
+      internalID: 1623235526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_40
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 665
+        width: 68
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f2909e8311a9e488097cd588002633
+      internalID: 542056366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_41
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 662
+        width: 70
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfefb2a794302d449e6652fd281c44c
+      internalID: -1300954980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_42
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 658
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65aa2d764cec15543a53a32ad6ad68b6
+      internalID: 1803581264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_43
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 664
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d003f878578caa4690b9c0dee0ad667
+      internalID: 1708476310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_44
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 660
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5164ab09c867aeb4ab03b629265d2ea0
+      internalID: 1328922245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_45
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 538
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4612bce8893965429a2c4406b6b2665
+      internalID: -2038778008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_46
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 538
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae9a1f227eecc84fa143ef11a2aa5be
+      internalID: 1674433073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_47
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 542
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683843a171cab6149acedaa0c093a08f
+      internalID: 1393869616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_48
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 541
+        width: 63
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009d1c124eeed7749b09a5d20a8bfdd5
+      internalID: -910377623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_49
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 540
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76116773be618c541aa074ccd14db6f4
+      internalID: -1050377632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_50
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 541
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaa3a6c0d1235d47b7ced63f2955a60
+      internalID: -1697832481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_51
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 544
+        width: 73
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf9525e748eb884cb3c8009d9e68671
+      internalID: 1925155824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_52
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 540
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98641d3acbc53ff459c9cdbe3e23bae1
+      internalID: -325694397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_53
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 539
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300b9dbb1777ac54095062b8b45219ff
+      internalID: -795924803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_54
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 417
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a2292fee83051429fec954d29a5813
+      internalID: 552722400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_55
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 422
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d9c30a5b5cbc74c82e8537a281959d
+      internalID: -895057052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_56
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 423
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78c85a1bca824748a9fa7e96263518c
+      internalID: -1385155343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_57
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 423
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1c4eb37f8aecf49b64fd145948c3a8
+      internalID: 1582894584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_59
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 404
+        width: 102
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08091764d42a7d4da057f06beb5326f
+      internalID: -1015418070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_60
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 421
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07b7bf0654756e40a746fa4580a1ffc
+      internalID: -984166280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_61
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 422
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f766120521f034c8c37410c1284f10
+      internalID: 1863902035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_62
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 345
+        width: 111.111115
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e0cabefbfe887429106b7c2fd038c8
+      internalID: 1905907712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_63
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 277
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ac768862b33cf4aac70d7b4d443631
+      internalID: -548985189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_64
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 275
+        width: 61
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0229901a127d304385429fc77cf38ae
+      internalID: 1312102387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_65
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 274
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2813737ea1f517045ad59ea69065fc85
+      internalID: 272220520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_66
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 280
+        width: 66
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cb7fc03617a5747a5172acf51e5d85
+      internalID: -624238224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_67
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 282
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15006c5cb08d81d44817b6fd55bc9abf
+      internalID: 438782727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_68
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 281
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342864d3230cc3443bd43b1adfb72d65
+      internalID: 871893895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_69
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 276
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c76e88476ebe5f46b3d39276dfb1098
+      internalID: 1709345717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_70
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 277
+        width: 96
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c96ef41cf829204380182905922a5c2
+      internalID: 698720333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_71
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 274
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba85a3fc80dd1394087579a9041de74b
+      internalID: 179988863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_72
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 155
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ae81f035aa5854baada777f0acb16f
+      internalID: 820552690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_73
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 159
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e31945d75727d4ab69cafe0fdfffc6
+      internalID: 1563570484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_74
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 156
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfddae3ad543ad7478d07c5cb7702c84
+      internalID: -2060926302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_75
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 159
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4c4af4d9a100b45833dd770f61fcf0
+      internalID: 40702137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_76
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 161
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a68ad4f74c9e2545ba1db183aaeff6d
+      internalID: -815569616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_77
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 147
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eefbceb6f92b2c459ec813fe08e606b
+      internalID: -1628999783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_79
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 160
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a955fec1e6b39544a4a434f84d2764a
+      internalID: 1782956405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_80
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 149
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacc0a32586d2e546b5470d72d56e256
+      internalID: -569959841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_81
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 30
+        width: 70
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73561c595993dd54f9904759dc8f6be6
+      internalID: 123503176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_82
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 37
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f7d5f1931eee84d899e17de043a622
+      internalID: 1794627184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_83
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 36
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e411b2c69d1fd9c47ab838b8cf68d002
+      internalID: -2024795512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_84
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 35
+        width: 75
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c9dcd0377da054aba6ebd491cdeef4
+      internalID: -1735146309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_85
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 34
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc693717d730ef48876c1261c7b0206
+      internalID: 249243475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_86
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 36
+        width: 74
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fa557a8636f8548acaa2dc81a3223f
+      internalID: -781826833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_87
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 35
+        width: 76
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dc868cf07bfc146afe7c470f5fd456
+      internalID: 1955197790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_88
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 43
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82e896188498fd4991f3230962a46f0
+      internalID: -2084334771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noto-sans-cuneiform-font-character-map_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 1150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e321464f64b87048ad7c5f7a09a5fb0
+      internalID: -861322794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      noto-sans-cuneiform-font-character-map_0: -1542835940
+      noto-sans-cuneiform-font-character-map_1: -1673061934
+      noto-sans-cuneiform-font-character-map_10: -1556146539
+      noto-sans-cuneiform-font-character-map_11: 960348400
+      noto-sans-cuneiform-font-character-map_12: 371944660
+      noto-sans-cuneiform-font-character-map_13: -1053968863
+      noto-sans-cuneiform-font-character-map_14: 1158316093
+      noto-sans-cuneiform-font-character-map_15: 142642779
+      noto-sans-cuneiform-font-character-map_16: -1938953970
+      noto-sans-cuneiform-font-character-map_17: 561991056
+      noto-sans-cuneiform-font-character-map_18: 1214760485
+      noto-sans-cuneiform-font-character-map_19: 1118888127
+      noto-sans-cuneiform-font-character-map_2: 1573852780
+      noto-sans-cuneiform-font-character-map_20: 710056863
+      noto-sans-cuneiform-font-character-map_21: 126910156
+      noto-sans-cuneiform-font-character-map_22: 1177990810
+      noto-sans-cuneiform-font-character-map_23: 371620310
+      noto-sans-cuneiform-font-character-map_24: -1406071426
+      noto-sans-cuneiform-font-character-map_25: 1175854135
+      noto-sans-cuneiform-font-character-map_26: 110326210
+      noto-sans-cuneiform-font-character-map_27: -861322794
+      noto-sans-cuneiform-font-character-map_28: -1921301810
+      noto-sans-cuneiform-font-character-map_29: -1135658596
+      noto-sans-cuneiform-font-character-map_3: -211406946
+      noto-sans-cuneiform-font-character-map_30: -1998628615
+      noto-sans-cuneiform-font-character-map_31: 635982727
+      noto-sans-cuneiform-font-character-map_32: -1369690430
+      noto-sans-cuneiform-font-character-map_33: -1141558599
+      noto-sans-cuneiform-font-character-map_34: 1158117302
+      noto-sans-cuneiform-font-character-map_35: 321811920
+      noto-sans-cuneiform-font-character-map_36: 1200464424
+      noto-sans-cuneiform-font-character-map_37: 288559614
+      noto-sans-cuneiform-font-character-map_38: -1060131709
+      noto-sans-cuneiform-font-character-map_39: 1623235526
+      noto-sans-cuneiform-font-character-map_4: -1411086253
+      noto-sans-cuneiform-font-character-map_40: 542056366
+      noto-sans-cuneiform-font-character-map_41: -1300954980
+      noto-sans-cuneiform-font-character-map_42: 1803581264
+      noto-sans-cuneiform-font-character-map_43: 1708476310
+      noto-sans-cuneiform-font-character-map_44: 1328922245
+      noto-sans-cuneiform-font-character-map_45: -2038778008
+      noto-sans-cuneiform-font-character-map_46: 1674433073
+      noto-sans-cuneiform-font-character-map_47: 1393869616
+      noto-sans-cuneiform-font-character-map_48: -910377623
+      noto-sans-cuneiform-font-character-map_49: -1050377632
+      noto-sans-cuneiform-font-character-map_5: -2122360143
+      noto-sans-cuneiform-font-character-map_50: -1697832481
+      noto-sans-cuneiform-font-character-map_51: 1925155824
+      noto-sans-cuneiform-font-character-map_52: -325694397
+      noto-sans-cuneiform-font-character-map_53: -795924803
+      noto-sans-cuneiform-font-character-map_54: 552722400
+      noto-sans-cuneiform-font-character-map_55: -895057052
+      noto-sans-cuneiform-font-character-map_56: -1385155343
+      noto-sans-cuneiform-font-character-map_57: 1582894584
+      noto-sans-cuneiform-font-character-map_58: 1722092908
+      noto-sans-cuneiform-font-character-map_59: -1015418070
+      noto-sans-cuneiform-font-character-map_6: -219629019
+      noto-sans-cuneiform-font-character-map_60: -984166280
+      noto-sans-cuneiform-font-character-map_61: 1863902035
+      noto-sans-cuneiform-font-character-map_62: 1905907712
+      noto-sans-cuneiform-font-character-map_63: -548985189
+      noto-sans-cuneiform-font-character-map_64: 1312102387
+      noto-sans-cuneiform-font-character-map_65: 272220520
+      noto-sans-cuneiform-font-character-map_66: -624238224
+      noto-sans-cuneiform-font-character-map_67: 438782727
+      noto-sans-cuneiform-font-character-map_68: 871893895
+      noto-sans-cuneiform-font-character-map_69: 1709345717
+      noto-sans-cuneiform-font-character-map_7: -1757551059
+      noto-sans-cuneiform-font-character-map_70: 698720333
+      noto-sans-cuneiform-font-character-map_71: 179988863
+      noto-sans-cuneiform-font-character-map_72: 820552690
+      noto-sans-cuneiform-font-character-map_73: 1563570484
+      noto-sans-cuneiform-font-character-map_74: -2060926302
+      noto-sans-cuneiform-font-character-map_75: 40702137
+      noto-sans-cuneiform-font-character-map_76: -815569616
+      noto-sans-cuneiform-font-character-map_77: -1628999783
+      noto-sans-cuneiform-font-character-map_78: 2078663525
+      noto-sans-cuneiform-font-character-map_79: 1782956405
+      noto-sans-cuneiform-font-character-map_8: 1180783352
+      noto-sans-cuneiform-font-character-map_80: -569959841
+      noto-sans-cuneiform-font-character-map_81: 123503176
+      noto-sans-cuneiform-font-character-map_82: 1794627184
+      noto-sans-cuneiform-font-character-map_83: -2024795512
+      noto-sans-cuneiform-font-character-map_84: -1735146309
+      noto-sans-cuneiform-font-character-map_85: 249243475
+      noto-sans-cuneiform-font-character-map_86: -781826833
+      noto-sans-cuneiform-font-character-map_87: 1955197790
+      noto-sans-cuneiform-font-character-map_88: -2084334771
+      noto-sans-cuneiform-font-character-map_9: 1164246202
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

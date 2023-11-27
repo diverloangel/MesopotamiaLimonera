@@ -16,6 +16,8 @@ public class PlatformToDeliver : MonoBehaviour
     public GameObject Off;
     public GameObject On;
 
+    public GameObject ciudadano;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
@@ -26,6 +28,7 @@ public class PlatformToDeliver : MonoBehaviour
                 PickUp.instance.TurnOffAllObjectsInCharacter();
                 objeto.SetActive(true);
                 //dialogue.SetActive(true);
+                ciudadano.GetComponent<CiudadanoManager>().realizarAccion = true;
 
                 Off.SetActive(false); On.SetActive(true);
                 entregado = true;
