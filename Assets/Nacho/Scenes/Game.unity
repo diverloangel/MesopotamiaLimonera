@@ -18395,7 +18395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   realizarAccion: 0
-  centrodeEscenario: {fileID: 0}
+  centrodeEscenario: {fileID: 814813376}
   rotationSpeed: 150
   moveSpeed: 3
   move: 0
@@ -61767,7 +61767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   realizarAccion: 0
-  centrodeEscenario: {fileID: 0}
+  centrodeEscenario: {fileID: 814813376}
   rotationSpeed: 150
   moveSpeed: 3
   move: 0
@@ -62511,7 +62511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   realizarAccion: 0
-  centrodeEscenario: {fileID: 0}
+  centrodeEscenario: {fileID: 814813376}
   rotationSpeed: 150
   moveSpeed: 3
   move: 0
@@ -64263,7 +64263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   realizarAccion: 0
-  centrodeEscenario: {fileID: 0}
+  centrodeEscenario: {fileID: 814813376}
   rotationSpeed: 150
   moveSpeed: 3
   move: 0
