@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class PlayerController : MonoBehaviour
     //Escala de la gravedad. Aumenta o disminuye esta, en este caso la multiplica
     public float gravityScale = 5f;
 
-    private Vector3 moveDirection;
+    public Vector3 moveDirection;
 
     public CharacterController charController;
 
@@ -45,6 +46,10 @@ public class PlayerController : MonoBehaviour
     //piezas que conforman el personaje
     public GameObject[] playerPieces;
 
+    //ser arrastrado
+    public float directionXToBeDragged;
+    public bool beDragged;
+
     //Método que se llama antes de que empiece el juego
     private void Awake()
     {
@@ -62,12 +67,26 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         //Si estamos siendo noqueados
         if (!isKnocking)
         {
             float yStore = moveDirection.y;
             //moveDirection = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical"));
             moveDirection = (transform.forward * Input.GetAxisRaw("Vertical")) + (transform.right * Input.GetAxisRaw("Horizontal"));
+            if (beDragged)
+            {
+                if ((Input.GetAxisRaw("Horizontal") <0.1f || Input.GetAxisRaw("Horizontal") > 0.1f) || (Input.GetAxisRaw("Vertical") <-0.1f || Input.GetAxisRaw("Vertical") > 0.1f))
+                {
+                    moveDirection = (new Vector3(moveDirection.x + directionXToBeDragged*4, moveDirection.y, moveDirection.z));
+
+                }
+                else
+                {
+                    moveDirection = (new Vector3(moveDirection.x + directionXToBeDragged, moveDirection.y, moveDirection.z));
+
+                }
+            }
             //Normalizamos el MoveDirection para que a la hora de movernos a la vez en los dos Inputs, no tengamos un aumento de velocidad inesperado
             moveDirection.Normalize();
             //Una vez normalizado ya podemos multiplicarlo por la moveSpeed que hemos elegido
@@ -91,6 +110,7 @@ public class PlayerController : MonoBehaviour
                 {
                     jumping = true;
                     StartCoroutine(nameof(jumpingCoroutine));
+                    MusicManager.instance.SonidoSaltoPlay();
                     //Aplicamos al jugador en el eje Y la fuerza de salto
                     moveDirection.y = jumpForce;
                 }

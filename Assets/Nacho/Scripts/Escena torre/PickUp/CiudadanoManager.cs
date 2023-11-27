@@ -72,6 +72,7 @@ public class CiudadanoManager : MonoBehaviour
         if (other.CompareTag("torre"))
         {
             scaleDown = true;
+            CondicionVictoria.Instance.ComprobarVictoria();
         }
     }
 

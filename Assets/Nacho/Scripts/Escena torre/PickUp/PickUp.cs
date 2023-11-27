@@ -46,6 +46,7 @@ public class PickUp : MonoBehaviour
     public void PutObjectInCharacter()
     {
         tipoObject[tipo].SetActive(true);
+        MusicManager.instance.SonidoCogerObjetoPlay();
     }
     public void TurnOffAllObjectsInCharacter()
     {
@@ -53,5 +54,6 @@ public class PickUp : MonoBehaviour
         {
             tipoObject[i].SetActive(false);
         }
+        MusicManager.instance.SonidoCogerObjetoPlay();
     }
 }
