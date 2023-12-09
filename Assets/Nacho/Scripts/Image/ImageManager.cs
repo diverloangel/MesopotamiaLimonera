@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -14,6 +15,9 @@ public class ImageManager : MonoBehaviour
     private float fadeSpeed = 1;
 
     public Image Images1;
+    public Image Recuadro;
+    public TMP_Text texto;
+    //public TMP_Text texto;
     ////public bool image2;
     //public Image Images2;
     ////public bool image3;
@@ -49,6 +53,8 @@ public class ImageManager : MonoBehaviour
             if (Images1.color.a != 0)
             {
                 Images1.color = new Color(Images1.color.r, Images1.color.g, Images1.color.b, Mathf.MoveTowards(Images1.color.a, 0, fadeSpeed * Time.deltaTime)); //En el alpha, aplicamos que transicione entre dos puntos, en un cierto tiempo
+                Recuadro.color = new Color(Recuadro.color.r, Recuadro.color.g, Recuadro.color.b, Mathf.MoveTowards(Recuadro.color.a, 0, fadeSpeed * Time.deltaTime)); //En el alpha, aplicamos que transicione entre dos puntos, en un cierto tiempo
+                texto.color = new Color(texto.color.r, texto.color.g, texto.color.b, Mathf.MoveTowards(texto.color.a, 0, fadeSpeed * Time.deltaTime)); //En el alpha, aplicamos que transicione entre dos puntos, en un cierto tiempo
             }
             else if(endStory == false)
             {

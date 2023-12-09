@@ -78,14 +78,22 @@ public class PlayerController : MonoBehaviour
             {
                 if ((Input.GetAxisRaw("Horizontal") <0.1f || Input.GetAxisRaw("Horizontal") > 0.1f) || (Input.GetAxisRaw("Vertical") <-0.1f || Input.GetAxisRaw("Vertical") > 0.1f))
                 {
-                    moveDirection = (new Vector3(moveDirection.x + directionXToBeDragged*4, moveDirection.y, moveDirection.z));
+                    moveDirection = (new Vector3(moveDirection.x , moveDirection.y, moveDirection.z + directionXToBeDragged * 4.5f));
 
                 }
                 else
                 {
-                    moveDirection = (new Vector3(moveDirection.x + directionXToBeDragged, moveDirection.y, moveDirection.z));
+                    moveDirection = (new Vector3(moveDirection.x , moveDirection.y , moveDirection.z + directionXToBeDragged * 8));
 
                 }
+            }
+            if (beDragged)
+            {
+                moveSpeed = 1.5f;
+            }
+            else
+            {
+                moveSpeed = 5;
             }
             //Normalizamos el MoveDirection para que a la hora de movernos a la vez en los dos Inputs, no tengamos un aumento de velocidad inesperado
             moveDirection.Normalize();

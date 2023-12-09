@@ -27,7 +27,7 @@ public class Types : MonoBehaviour
             {
                 PickUp.instance.tipo = tipo;
                 PickUp.instance.carryingObject = true;
-                Destroy(this.gameObject);
+                Destroy(this.gameObject.transform.parent.gameObject);
                 PickUp.instance.PutObjectInCharacter();
             }
         }
